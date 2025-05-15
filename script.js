@@ -87,3 +87,4 @@ function resetAll() {
   grid.innerHTML = '';
   grid.style.gridTemplateColumns = '';
 }
+
