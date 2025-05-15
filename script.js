@@ -1,5 +1,10 @@
 let isGridDrawn = false;
 
+let objStyle = {
+  "bgcolor":"blue",
+  "border":'ipx soild red'
+}
+
 function handleAction() {
   if (!isGridDrawn) {
     drawGrid();
@@ -54,7 +59,7 @@ function markCell() {
   const cells = document.querySelectorAll('.cell');
   for (const cell of cells) {
     if (parseInt(cell.dataset.x) === valueX && parseInt(cell.dataset.y) === valueY) {
-      cell.style.backgroundColor = 'red';
+      cell.style.backgroundColor = objStyle.bgcolor;
     }
   }
 }
