@@ -125,7 +125,7 @@ const graphTask = (function () {
     bar.style.transition = 'height 0.5s ease';
     bar.style.textAlign = 'center';
     bar.style.color = '#fff';
-    bar.textContent = `${valueX}: ${valueY}`;
+    // bar.textContent = `${valueX}: ${valueY}`;
 
     barGraph.appendChild(bar);
   }
@@ -166,4 +166,6 @@ const graphTask = (function () {
 })();
 
 const graphTaskInstance = graphTask;
+
+
 
